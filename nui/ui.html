@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript" src="scripts.js"></script>
+		<script type="text/javascript" src="debounce.min.js"></script>
+		<link rel="stylesheet" href="ui.css" type="text/css">
+
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="app">
+			<div class="inventory">
+				<div class="move-form">
+					<!-- <input type="type" id="search-text" placeholder="Etsi"><br> -->
+					<input type="number" id="move-amount" value="0" max="99" min="0" placeholder="Määrä">
+					<div id="Use" class="buttondude sans Use">Käytä</div>
+					<div id="CloseInv" class="buttondude sans CloseInv" onclick="closeInv()">Sulje</div>
+				</div>
+
+				<div id="Logs" class="Logs">Inventory avattu!</div>
+				<div id="CurrentInformation" class="CurrentInformation"></div>
+
+
+				<div id="wrapPersonalWeight" class="wrapPersonalWeight">
+
+				</div>
+
+				<div id="wrapSecondaryWeight" class="wrapSecondaryWeight">
+
+				</div>
+
+				<div id="draggedItem">
+					
+				</div>
+				
+				<div id="wrapmain" class="wrapmain"></div>
+
+				<div id="wrapsecondary" class="wrapsecondary"></div>
+
+				
+			</div>
+
+			
+		</div>
+
+		<div id="UseBar"> </div>
+
+		<div id="DisplayBar"></div>
+	</body>
+</html>
